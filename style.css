@@ -1,0 +1,150 @@
+body {
+	background-color:#bef5ff;
+	font-family: 'Exo 2', sans-serif;
+	margin: 0px 300px 0px 300px;
+	padding: 0px;
+}
+
+h1,h2{
+	font-family: Helvetica;
+}
+h1{
+	color:rgb(126 45 255);
+	font-size: 40px;
+	letter-spacing:09px;
+	font-family:'Righteous', cursive;
+}
+h2{
+	color: rgb(33,33,33);
+	font-size:25px;
+	font-weight:10px;
+	font-family:'Poller One', cursive;
+}
+a{	
+	transition: color 0.2s ease;
+}
+
+
+/*custom design with class (99% design)*/
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0px 50px 0px 50px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0px 50px 0px 50px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0px 50px 0px 50px;
+  }
+}
+
+.box-design{
+	background:#d9f9ff;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	color: white;
+	padding: 10px 20px;
+	border-radius:4px;
+	text-decoration: none;
+	background-color: rgb(0 25 255);
+	font-family:'Righteous', cursive;
+}
+.btn-blue:hover{
+	background-color:rgb(224, 122, 95);
+	color: white;
+}
+.fab:hover{
+	border-radius:4px;
+	padding:unset
+	background-color:rgb(224, 122, 95);
+	color: rgb(224, 122, 95);
+}
+.fab{
+		width: 100px;
+}
+.list-inline {
+	list-style: none;
+	padding left: 0px;
+}
+.list-inline li{
+	display:inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+
+
+/*custom design with class (1% design adjustment)*/
+
+#box1 p{
+	margin-bottom: 40px;
+}
+#box1{
+	box-shadow: 0px 10px 30px rgba(10,0,0,0.3);
+}
+#underbox1{
+	border: 3px solid #161515b0;
+	background-color:#d9f9ffc4;
+	margin: 2px 5px;
+	box-shadow: 0px 10px 30px rgba(10,0,0,0.3);
+	border-radius: 4px;
+}
+#box2{
+	background-image: url("images/video_games.jpg");
+	background-position:center center;
+}
+#underbox2{
+	border: 3px solid #161515b0;
+	background-color:#d9f9ffc4;
+	margin: 2px 5px;
+	box-shadow: 0px 10px 30px rgba(10,0,0,0.3);
+	border-radius: 4px;
+}
+#box3{
+	background-image: url("images/crayons.jpg");
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-color: #f0f6fe;
+}
+
+#underbox3{
+	border: 3px solid #161515b0;
+	background-color:#d3f3e7c9;
+	margin: 2px 5px;
+	box-shadow: 0px 10px 30px rgba(10,0,0,0.3);
+	border-radius: 4px;
+}
+#box4{
+	background-image: url(images/travel.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color: white;
+}
+#underbox4{
+	border: 3px solid #161515b0;
+	background-color:#ffffffc4;
+	margin: 2px 5px;
+	box-shadow: 0px 10px 30px rgba(10,0,0,0.3);
+	border-radius: 4px;
+}
